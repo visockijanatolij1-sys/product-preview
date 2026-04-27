@@ -1,0 +1,59 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+body{
+    background-color: rgb(243, 236, 200);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    /* flex: 0 1 50%; */
+    max-width: 600px;
+}
+
+.card-image{
+    flex: 50%;
+    width: 100%;
+    height: auto;
+    background: url(/img/image-product-desktop.jpg) no-repeat center / cover;
+    object-fit: cover;
+
+}
+.card-content{
+    padding: 25px;
+    background-color: #fff;
+    flex: 50%;
+}
+
+.content__sub-title{
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 0.4rem;
+    margin-top: 15px;
+}
+
+.content__title{
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.content__text{
+    margin-top: 15px;
+    color: #333;
+    font-size: 17px;
+    line-height: 1.2rem;
+}
+
