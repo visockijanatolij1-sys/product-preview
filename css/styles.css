@@ -30,7 +30,7 @@ body{
     flex: 50%;
     width: 100%;
     height: auto;
-    background: url(/img/image-product-desktop.jpg) no-repeat center / cover;
+    background: url("../img/image-product-desktop.jpg") no-repeat center / cover;
     object-fit: cover;
 
 }
@@ -116,7 +116,7 @@ body{
 .content-button::before{
     content: "";
     position: absolute;
-    background: url(/img/icon-cart.svg) no-repeat center / contain;
+    background: url("../img/icon-cart.svg") no-repeat center / contain;
     width: 16px;
     height: 16px;
     left: 49px;
@@ -145,7 +145,7 @@ body{
         border-bottom-left-radius: 0px;
         width: 100%;
         min-height: 240px;
-        background: url(/img/image-product-mobile.jpg) no-repeat center / cover;
+        background: url("../img/image-product-mobile.jpg") no-repeat center / cover;
     }
     .card-content{
         border-bottom-left-radius: 10px;
